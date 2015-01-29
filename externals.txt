@@ -1,0 +1,14 @@
+core http://core.svn.wordpress.org/tags/3.5.1/
+wp-content/plugins/aboutus/lib/TheFold https://svn.thefold.co.nz/lib/TheFold/trunk/
+wp-content/plugins/advanced-custom-fields http://plugins.svn.wordpress.org/advanced-custom-fields/trunk/
+wp-content/plugins/gravityforms https://svn.thefold.co.nz/wp-plugins/gravityforms/tags/1.7/
+wp-content/plugins/gravity-forms-custom-post-types http://plugins.svn.wordpress.org/gravity-forms-custom-post-types/tags/3.0.1/
+wp-content/plugins/gravityformsuserregistration https://svn.thefold.co.nz/wp-plugins/gravityformsuserregistration/tags/1.5/
+wp-content/plugins/aboutus/lib/Zend  http://framework.zend.com/svn/framework/standard/tags/release-1.12.0/library/Zend/
+wp-content/plugins/aboutus/lib/Hybrid  https://svn.thefold.co.nz/lib/hybridauth/tags/2.1.1/Hybrid
+wp-content/plugins/posts-to-posts http://plugins.svn.wordpress.org/posts-to-posts/tags/1.5.1/
+wp-content/plugins/advanced-search-by-my-solr-server http://plugins.svn.wordpress.org/advanced-search-by-my-solr-server/2.0.4/
+wp-content/plugins/google-analytics-dashboard http://plugins.svn.wordpress.org/google-analytics-dashboard/tags/2.0.4/
+wp-content/plugins/wordpress-importer http://plugins.svn.wordpress.org/wordpress-importer/tags/0.6.1/
+wp-content/plugins/gravity-forms-update-post http://plugins.svn.wordpress.org/gravity-forms-update-post/tags/0.5.3/
+wp_update.js https://svn.thefold.co.nz/lib/TheFold/trunk/utils/wp_update.js

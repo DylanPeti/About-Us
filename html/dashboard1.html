@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>About Us - Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-select.min.css" rel="stylesheet">
+    <link href="css/typography.css" rel="stylesheet">
+    <link href="css/aboutus.css" rel="stylesheet">
+
+    <script type="text/javascript" src="//use.typekit.net/ahc0gyy.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="../assets/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+                    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
+                                   <link rel="shortcut icon" href="../assets/ico/favicon.png">
+  </head>
+
+  <body>
+
+    <div class="header">
+      <div class="header-background"></div>
+      <div class="container">
+        <a href="/" class="logo">About Us</a>
+        <input type="text" placeholder="Search for businesses" class="search" id="search">
+        <div class="navigation">
+          <a class="btn outline" href="#">Login</a><a class="btn" href="#">GET STARTED FOR FREE</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="section dashboard-stats">
+      <div class="container">
+        <div class="dashboard-stats-title">
+          <h2>Your profile in numbers</h2>
+        </div>
+        <div class="dashboard-stats-selector ">
+          <select name="dashboard-stats-view" class="selectpicker">
+            <option>This Week</option>
+            <option>This Month</option>
+            <option>This Year</option>
+          </select>
+        </div>
+        <ul class="dashboard-stats-counters">
+          <li>
+            <span class="count views">105</span>
+            <h4>Profile Views</h4>
+          </li>
+          <li>
+            <span class="count emails">14</span>
+            <h4>Emails</h4>
+          </li>
+          <li>
+            <span class="count maps">14</span>
+            <h4>Map Views</h4>
+          </li>
+          <li>
+            <span class="count facebook">14</span>
+            <h4>Facebook Fans</h4>
+          </li>
+          <li>
+            <span class="count twitter">14</span>
+            <h4>Twitter Followers</h4>
+          </li>
+          <li>
+            <span class="count linkedin">14</span>
+            <h4>Linked In Connections</h4>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="section dashboard-offers">
+      <div class="container">
+        <h2>From The Cloudstore</h2>
+        <ul id="offers-slider-buttons" class="buttons">
+          <li class="pull-right"><a class="btn" href="#">VIEW ALL APPS</a></li>
+          <li><a href="#" class="btn" data-id="xero">XERO</a></li>
+          <li class="active"><a href="#" class="btn" data-id="dremus">DREMUS</a></li>
+          <li><a href="#" class="btn" data-id="vend">VEND</a></li>
+          <li><a href="#" class="btn" data-id="unleashed">UNLEASHED</a></li>
+        </ul>
+      </div>
+      <div class="cycle-pager" id="offers-slider-pager"></div>
+      <div id="offers-slider" class="offers-slider">
+        <ul id="offers-slider-content" class="offers-slider-content" style="width: 3124px; margin-left: -624px;">
+          <li data-id="xero" data-title="Xero" data-url="#">
+            <img src="assets/offers/xero.jpg" alt="">
+          </li>
+          <li data-id="dremus" class="active" data-title="Dremus —<br />Retailer's Dream Team" data-url="#">
+            <img src="assets/offers/dremus.jpg" alt="">
+          </li>
+          <li data-id="vend" data-title="Vend" data-url="#">
+            <img src="assets/offers/vend.jpg" alt="">
+          </li>
+          <li data-id="unleashed" data-title="Unleashed" data-url="#">
+            <img src="assets/offers/xero.jpg" alt="">
+          </li>
+          <li>
+            <img src="assets/offers/xero.jpg" alt="">
+          </li>
+        </ul>
+      </div>
+      <div class="container">
+        <div id="offers-slider-info" class="offers-slider-info">
+          <a class="btn pull-right" href="#">Find out more</a>
+          <h3>Dremus —<br />Retailer's Dream Team</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="section dashboard-feed">
+      <div class="container">
+        <div class="channels">
+          <h2>Your Social Channels</h2>
+          <ul class="dashboard-feed-buttons">
+            <li class="view-all"><a href="#" class="btn">VIEW ALL</a></li>
+            <li class="active"><a href="#" class="icon facebook"></a></li>
+            <li><a href="#" class="icon twitter"></a></li>
+            <li><a href="#" class="icon googleplus"></a></li>
+            <li><a href="#" class="icon linkedin"></a></li>
+          </ul>
+        </div>
+        <div class="news">
+          <h2>News Feed</h2>
+          <ul class="dashboard-feed-buttons">
+            <li class="active"><a href="#" class="btn">LATEST UPDATES</a></li>
+            <li><a href="#" class="btn">VIEW ALL</a></li>
+            <li><a href="#" class="btn">APPS</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="dashboard-feed-content">
+        <div class="container">
+          <div class="channels-content">
+            <div class="social-post">
+              <div class="social-post-header">
+                <a class="btn" href="#">DETAILS</a>
+                <h2>Icing on the Cake</h2>
+                <h3>235 Followers</h3>
+              </div>
+              <div class="social-post-form">
+                <a class="btn" href="#">Post</a>
+                <textarea name="post-content" placeholder="Post to facebook... What’s on your mind?"></textarea>
+              </div>
+            </div>
+            <ul class="channel-feed">
+              <li class="facebook">
+                <img src="http://placehold.it/54x54" class="thumb" alt="">
+                <div class="item">
+                  <span class="date">Sunday</span>
+                  <h3>Icing on the Cake</h3>
+                  <div class="content">
+                    <p>Grab One deal! Tuesday the 18th of June 2013 GrabOne Deal:50% off our yummy cupcakes! Get them while they’re hot! 2Pack Regular Cupcakes for $4.00 and 6Pack Assortment Box for $11.00</p>
+                    <img src="http://placehold.it/319x213" alt="">
+                  </div>
+                </div>
+              </li>
+              <li class="facebook">
+                <img src="http://placehold.it/54x54" class="thumb" alt="">
+                <div class="item">
+                  <span class="date">Sunday</span>
+                  <h3>Icing on the Cake</h3>
+                  <div class="content">
+                    <p>Grab One deal! Tuesday the 18th of June 2013 GrabOne Deal:50% off our yummy cupcakes! Get them while they’re hot! 2Pack Regular Cupcakes for $4.00 and 6Pack Assortment Box for $11.00</p>
+                    <img src="http://placehold.it/319x213" alt="">
+                  </div>
+                </div>
+              </li>
+              <li class="facebook">
+                <img src="http://placehold.it/54x54" class="thumb" alt="">
+                <div class="item">
+                  <span class="date">Sunday</span>
+                  <h3>Icing on the Cake</h3>
+                  <div class="content">
+                    <p>Grab One deal! Tuesday the 18th of June 2013 GrabOne Deal:50% off our yummy cupcakes! Get them while they’re hot! 2Pack Regular Cupcakes for $4.00 and 6Pack Assortment Box for $11.00</p>
+                    <img src="http://placehold.it/319x213" alt="">
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="news-content">
+            <div class="news-banner">
+              <img src="http://placehold.it/524x71" alt="">
+            </div>
+            <ul class="news-feed">
+              <li>
+                <div class="item">
+                  <span class="date">18 June, 2013</span>
+                  <h3>Xero introduces new ways to pay</h3>
+                  <div class="content">
+                    <p><img src="http://placehold.it/440x293" alt=""></p>
+                    <p>If you use DPS, PayPal, GoCardless, Stripe or eWay, you can add it as a payment service in Xero then add it to your invoice theme. When you email your customer an invoice, they can use the payment button on the online invoice to pay you directly securely using their credit card details. Too easy! </p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="item">
+                  <span class="date">18 June, 2013</span>
+                  <h3>Xero introduces new ways to pay</h3>
+                  <div class="content">
+                    <img src="http://placehold.it/440x293" alt="">
+                    <p>If you use DPS, PayPal, GoCardless, Stripe or eWay, you can add it as a payment service in Xero then add it to your invoice theme. When you email your customer an invoice, they can use the payment button on the online invoice to pay you directly securely using their credit card details. Too easy! </p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="item">
+                  <span class="date">18 June, 2013</span>
+                  <h3>Xero introduces new ways to pay</h3>
+                  <div class="content">
+                    <img src="http://placehold.it/440x293" alt="">
+                    <p>If you use DPS, PayPal, GoCardless, Stripe or eWay, you can add it as a payment service in Xero then add it to your invoice theme. When you email your customer an invoice, they can use the payment button on the online invoice to pay you directly securely using their credit card details. Too easy! </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-navigation">
+      <div class="container">
+        <ul class="footer-navigation-links">
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">ABOUT</a></li>
+          <li><a href="#">BLOG</a></li>
+          <li><a href="#">HELP</a></li>
+          <li><a href="#">ADVERTISING</a></li>
+        </ul>
+        <ul class="footer-navigation-social">
+          <li>From the Land of the Long White Cloud</li>
+          <li><a href="#" class="twitter"></a></li>
+          <li><a href="#" class="facebook"></a></li>
+          <li><a href="#" class="linkedin"></a></li>
+          <li><a href="#" class="youtube"></a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="container">
+        <ul class="footer-links">
+          <li>&copy; 2013 About Us</li>
+          <li><a href="#">User Agreement</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery-1.10.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap-select.min.js"></script>
+    <script src="js/jquery.cycle2.min.js"></script>
+    <script src="js/jquery.cycle2.carousel.min.js"></script>
+    <script src="js/aboutus.js"></script>
+  </body>
+</html>

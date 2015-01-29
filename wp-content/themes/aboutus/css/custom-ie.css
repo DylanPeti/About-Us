@@ -1,0 +1,12 @@
+.extra-posts .column{
+	width: 250px;
+	margin-right: 20px;
+	float: left;
+}
+#user-guide article ul li h3{
+	text-align: center;
+}
+
+h1{
+	font-size: 22px;
+}
