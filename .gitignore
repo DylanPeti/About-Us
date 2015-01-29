@@ -1,6 +1,5 @@
 /core/wp-config.php
 *.DS_Store
-.htaccess
 wp-content/cache/
 core/sitemap.xml
 wp-content/advanced-cache.php
