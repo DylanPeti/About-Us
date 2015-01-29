@@ -92,7 +92,7 @@ define('WP_DEBUG_DISPLAY', true);
 define('WP_DEBUG_LOG', true);
 
 
-define( 'WP_CONTENT_DIR', $_SERVER['DOCUMENT_ROOT'] . 'wp-content' );
+define( 'WP_CONTENT_DIR', $_SERVER['DOCUMENT_ROOT'] . '/wp-content' );
 
 /* That's all, stop editing! Happy blogging. */
 
