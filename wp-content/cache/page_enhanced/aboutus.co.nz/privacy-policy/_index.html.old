@@ -1,0 +1,1222 @@
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7"  xmlns:fb="https://www.facebook.com/2008/fbml"  xmlns:og="http://ogp.me/ns#" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8"  xmlns:fb="https://www.facebook.com/2008/fbml"  xmlns:og="http://ogp.me/ns#" lang="en-US">
+<![endif]-->
+<!--[if !(IE 7) | !(IE 8)  ]><!-->
+<html  xmlns:fb="https://www.facebook.com/2008/fbml"  xmlns:og="http://ogp.me/ns#" lang="en-US">
+<!--<![endif]-->
+<head>
+<script language="JavaScript" type="text/javascript" src="../../core/admotion/_021_adhub_server_v4.js"> </script>
+<script type="text/javascript">
+var siteTarget = "/SITE=ABOUTUS/AREA=HOME.ITEM";
+var keyword = '';
+</script>
+<!--
+<meta name="viewport" content="width=device-width">
+<meta http-equiv="cache-control" content="max-age=0" />
+<meta http-equiv="cache-control" content="no-cache" />
+<meta http-equiv="expires" content="0" />
+<meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+<meta http-equiv="pragma" content="no-cache" />
+
+
+-->
+<!--FONT & MEDIA CONTROL -->
+<link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="/css/mobile-styling.css">
+<meta name="viewport" content="width=device-width" />
+<meta property="og:title" content="About Us  | Privacy Policy" />
+<meta property="og:image" content="" />
+<meta property="og:description" content="This Site is operated by Socialize Group Limited (together “About Us”, the&hellip;" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://aboutus.co.nz/privacy-policy/" />
+
+<!--twitter social snippets-->
+
+<meta name="twitter:card" content="">
+<meta name="twitter:url" content="">
+<meta name="twitter:title" content="">
+<meta name="twitter:description" content="">
+<meta name="twitter:image" content="">
+<meta name="twitter:creator" value="">
+
+
+
+ 
+
+
+
+ 
+<meta charset="UTF-8" />
+<meta name="viewport" content="height=device-height" />
+<!--<title>About Us  | Privacy Policy</title>-->
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="pingback" href="http://aboutus.co.nz/xmlrpc.php" />
+
+	<script type="text/javascript" src="//use.typekit.net/ahc0gyy.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+<link rel="alternate" type="application/rss+xml" title="About Us &raquo; Feed" href="http://aboutus.co.nz/feed/" />
+<link rel="alternate" type="application/rss+xml" title="About Us &raquo; Comments Feed" href="http://aboutus.co.nz/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="About Us &raquo; Privacy Policy Comments Feed" href="http://aboutus.co.nz/privacy-policy/feed/" />
+<link rel='stylesheet' id='login-with-ajax-css'  href='http://d2mnffzlinsz3q.cloudfront.net/wp-content/themes/aboutus/plugins/login-with-ajax/widget.css?ver=19' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap-css'  href='//netdna.bootstrapcdn.com/twitter-bootstrap/2.2.2/css/bootstrap-combined.min.css?ver=19' type='text/css' media='all' />
+<link rel='stylesheet' id='fontello-css'  href='http://d2mnffzlinsz3q.cloudfront.net/wp-content/themes/aboutus/css/chart.css?ver=19' type='text/css' media='all' />
+<link rel='stylesheet' id='jqueryfileupload-css'  href='http://aboutus.co.nz/css/jquery.fileupload-ui.css?ver=19' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-glossary-css-css'  href='http://d2mnffzlinsz3q.cloudfront.net/wp-content/plugins/wp-glossary/css/wp-glossary.css?ver=19' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-glossary-qtip-css-css'  href='http://d2mnffzlinsz3q.cloudfront.net/wp-content/plugins/wp-glossary/ext/jquery.qtip.css?ver=19' type='text/css' media='all' />
+<link rel='stylesheet' id='thefolds-styles-css'  href='http://d2mnffzlinsz3q.cloudfront.net/wp-content/themes/aboutus/style.css?ver=19' type='text/css' media='all' />
+<link rel='stylesheet' id='mobiles-cell-css'  href='http://d2mnffzlinsz3q.cloudfront.net/wp-content/themes/aboutus/css/mobiles-cell.css?ver=19' type='text/css' media='all' />
+<script type='text/javascript' src='http://aboutus.co.nz/js/jquery-1.10.1.min.js?ver=3.5.1'></script>
+<script type='text/javascript' src='http://d2mnffzlinsz3q.cloudfront.net/wp-content/themes/aboutus/plugins/login-with-ajax/login-with-ajax.js?ver=3.5.1'></script>
+<script type='text/javascript' src='http://aboutus.co.nz/js/bootstrap.min.js?ver=3.5.1'></script>
+<script type='text/javascript' src='http://aboutus.co.nz/js/jquery.validate.min.js?ver=3.5.1'></script>
+<script type='text/javascript' src='http://aboutus.co.nz/js/additional-methods.min.js?ver=3.5.1'></script>
+<script type='text/javascript' src='http://aboutus.co.nz/js/bootstrap-select.min.js?ver=3.5.1'></script>
+<script type='text/javascript' src='http://aboutus.co.nz/js/jquery.scrollTo.min.js?ver=3.5.1'></script>
+<script type='text/javascript' src='http://maps.googleapis.com/maps/api/js?key=AIzaSyDk4Y6ae4Ot4Nr9a_wYHimEyZxZVDIOD6s&#038;sensor=false&#038;libraries=places&#038;region=nz&#038;ver=3.5.1'></script>
+<script type='text/javascript' src='http://d2mnffzlinsz3q.cloudfront.net/wp-content/plugins/aboutus/js/geocomplete/jquery.geocomplete.min.js?ver=3.5.1'></script>
+<script type='text/javascript' src='http://aboutus.co.nz/js/jquery.ui.widget.js?ver=3.5.1'></script>
+<script type='text/javascript' src='http://aboutus.co.nz/js/jquery.fileupload.js?ver=3.5.1'></script>
+<script type='text/javascript' src='http://aboutus.co.nz/js/jquery.fileupload-ui.js?ver=3.5.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var AboutUs = {"ajaxurl":"http:\/\/aboutus.co.nz\/wp-admin\/admin-ajax.php","is_user_logged_in":"","site_url":"http:\/\/aboutus.co.nz"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://aboutus.co.nz/js/aboutus.js?ver=3.5.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://aboutus.co.nz/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://d2mnffzlinsz3q.cloudfront.net/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Homepage' href='http://aboutus.co.nz/' />
+<link rel='next' title='The Guide' href='http://aboutus.co.nz/the_guide/' />
+<meta name="generator" content="WordPress 3.5.1" />
+<link rel='canonical' href='http://aboutus.co.nz/privacy-policy/' />
+			
+							<style id="tt-easy-google-font-styles" type="text/css">
+			
+																						p {
+													}
+								
+																										h1 {
+													}
+								
+																										h2 {
+													}
+								
+																										h3 {
+													}
+								
+																										h4 {
+													}
+								
+																										h5 {
+													}
+								
+																										h6 {
+													}
+								
+										
+							</style>
+						
+
+<link rel="apple-touch-icon" href="http://d2mnffzlinsz3q.cloudfront.net/wp-content/themes/aboutus/images/icons/apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="http://d2mnffzlinsz3q.cloudfront.net/wp-content/themes/aboutus/images/icons/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="http://d2mnffzlinsz3q.cloudfront.net/wp-content/themes/aboutus/images/icons/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="http://d2mnffzlinsz3q.cloudfront.net/wp-content/themes/aboutus/images/icons/apple-touch-icon-144x144.png" />
+<link rel="shortcut icon" href="http://d2mnffzlinsz3q.cloudfront.net/favicon.ico">
+<link rel="stylesheet" type="text/css" href="http://d2mnffzlinsz3q.cloudfront.net/wp-content/themes/aboutus/css/newsroom.css">
+
+</head>
+
+<body class="page page-id-278 page-template-default" >
+<div id="fb-root"></div>
+<script>
+	(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+		fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));
+
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-41346756-1', 'aboutus.co.nz');
+	ga('send', 'pageview');
+</script>
+
+
+	<div class="header header-newsroom">
+	  <div class="header-background"></div>
+	  <div class="container">
+
+	    <a href="http://aboutus.co.nz/" class="logo">About Us</a>
+	    <div class="search-placeholder"></div>
+	    	    <div class="navigation">
+			<a class="btn btn-newsroom" href="/category/news">Newsroom</a>
+		  <a class="btn outline" href="javascript:;" data-toggle="modal" data-target="#loginmodal">Login</a><a class="btn" href="/signup">GET STARTED FOR FREE</a>
+	    </div>
+	  </div>
+	</div>
+
+<div id="newsroom-navigation" class="newsroom-navigation" style="box-shadow: 0px 0px 30px rgba(165, 165, 165, 0.5);">
+	<div class="newsroom-navigation-inner">
+		 <span><img class="menuIcon" src="http://d2mnffzlinsz3q.cloudfront.net/wp-content/uploads/2014/03/glyphicons_113_justify.png"></span>
+		
+		<a class="close" href="javascript:;">Close</a>
+		
+		<div id="now-reading" class="now-reading">
+			Archives		</div>
+		<ul class="clearfix">
+			
+ <li class="navigation-menu-innews" style="font-style: '';  padding-left:10px; width:0; padding-right:20px; float:none;"><a href="/category/channels">Channels</a>
+
+</li>
+	  <li class="navigation-menu-innews" style="font-style: '';  padding-left:10px; width:0; padding-right:20px; float:none;"><a href="/category/cloud-apps">Cloud Apps</a>
+
+</li>
+	  <li class="navigation-menu-innews" style="font-style: '';  padding-left:10px; width:0; padding-right:20px; float:none;"><a href="/category/digital-business-topics">Digital Business Topics</a>
+
+</li>
+	  <li class="navigation-menu-innews" style="font-style: '';  padding-left:10px; width:0; padding-right:20px; float:none;"><a href="/category/faqs">FAQs</a>
+
+</li>
+	  <li class="navigation-menu-innews" style="font-style: '';  padding-left:10px; width:0; padding-right:20px; float:none;"><a href="/category/news">News</a>
+
+</li>
+	  <li class="navigation-menu-innews" style="font-style: '';  padding-left:10px; width:0; padding-right:20px; float:none;"><a href="/category/verticals">Verticals</a>
+
+</li>
+	 
+          
+
+			<li class="theguide" style="position:absolute; padding-right:20px; padding-left:10px; float:none;"><a href="/the_guide">The Guide</a></li>
+
+		</ul>
+	</div>
+</div>
+
+
+<!-- ONE-->
+
+<div class="newsroom-navigation-one" style="">
+	<div class="newsroom-navigation-inner-two">
+
+		<ul id="newsroom-options-one">
+<a href="/category/facebook/"><li>Facebook</li></a>
+<a href="/category/google/"><li>Google+</li></a>
+<a href="/category/instagram/"><li>Instagram</li></a>
+<a href="/category/linkedin/"><li>LinkedIn</li></a>
+<a href="/category/pinterest/"><li>Pinterest</li></a>
+<a href="/category/twitter/"><li>Twitter</li></a>
+<a href="/category/what-is/"><li>What is..?</li></a>
+<a href="/category/youtube"><li>Youtube</li></a>
+
+		</ul>
+
+		</div>
+			<div class="category-slices">
+<div id="post-left-menu">
+<ul class"header-posts">
+
+                <li class="menu-layout-img">
+             <a href="http://aboutus.co.nz/looking-for-inspiration-kea-has-it/">     
+             <article class="menu-posts-one" style="margin-top:0;">
+             <img width="200" height="200" src="http://d2mnffzlinsz3q.cloudfront.net/wp-content/uploads/2014/04/inspiration-crop-200x200.jpg" class="attachment-post-thumbnail wp-post-image" alt="inspiration-crop" />   <h5>  Looking for Inspiration? Kea has it! </h5>
+    
+         </article>
+     </a>
+     </li>
+ 
+        <li class="menu-layout-img">
+             <a href="http://aboutus.co.nz/36-staggering-youtube-stats/">     
+             <article class="menu-posts-one" style="margin-top:0;">
+             <img width="200" height="200" src="http://d2mnffzlinsz3q.cloudfront.net/wp-content/uploads/2014/04/popcorn-200x200.jpg" class="attachment-post-thumbnail wp-post-image" alt="popcorn" />   <h5>  36 Staggering YouTube Stats </h5>
+    
+         </article>
+     </a>
+     </li>
+ 
+        <li class="menu-layout-img">
+             <a href="http://aboutus.co.nz/5-instagram-tools-for-better-marketing/">     
+             <article class="menu-posts-one" style="margin-top:0;">
+             <img width="200" height="200" src="http://d2mnffzlinsz3q.cloudfront.net/wp-content/uploads/2014/04/Screen-shot-2014-04-24-at-3.58.23-PM-200x200.png" class="attachment-post-thumbnail wp-post-image" alt="Screen shot 2014-04-24 at 3.58.23 PM" />   <h5>  5 Instagram Tools For Better Marketing </h5>
+    
+         </article>
+     </a>
+     </li>
+ 
+</ul>
+</div>
+
+
+		</div>
+
+		</div>
+
+<!--TWO-->
+		<div class="newsroom-navigation-two" style="display:none;box-shadow: 0px 0px 30px rgba(165, 165, 165, 0.5);">
+	<div class="newsroom-navigation-inner-one">
+
+		<ul id="newsroom-options-two">
+<a href="/category/powershop/"><li>Powershop</li></a>
+<a href="/category/vend/"><li>Vend</li></a>
+<a href="/category/xero/"><li>Xero</li></a>
+		</ul>
+
+		</div>
+		<div class="category-slices"> 
+<div id="post-left-menu">
+<ul class"header-posts">
+
+                <li class="menu-layout-img">
+             <a href="http://aboutus.co.nz/improving-your-support-experience/">     
+             <article class="menu-posts-one" style="margin-top:0;">
+             <img width="200" height="200" src="http://d2mnffzlinsz3q.cloudfront.net/wp-content/uploads/2014/04/you-make-me-happy-quotes-55-crop-200x200.jpg" class="attachment-post-thumbnail wp-post-image" alt="you-make-me-happy-quotes-55-crop" />   <h5>  Xero: &#8220;benchmark&#8221; of customer service </h5>
+    
+         </article>
+     </a>
+     </li>
+ 
+        <li class="menu-layout-img">
+             <a href="http://aboutus.co.nz/cloud-storage-providers-offer-apps-for-competitive-edge/">     
+             <article class="menu-posts-one" style="margin-top:0;">
+             <img width="200" height="200" src="http://d2mnffzlinsz3q.cloudfront.net/wp-content/uploads/2014/04/cloud02-200x200.jpg" class="attachment-post-thumbnail wp-post-image" alt="cloud02" />   <h5>  Medium Businesses Need the Cloud </h5>
+    
+         </article>
+     </a>
+     </li>
+ 
+        <li class="menu-layout-img">
+             <a href="http://aboutus.co.nz/why-google-is-so-important-to-organic-seo/">     
+             <article class="menu-posts-one" style="margin-top:0;">
+             <img width="200" height="200" src="http://d2mnffzlinsz3q.cloudfront.net/wp-content/uploads/2014/04/GooglePlus-200x200.png" class="attachment-post-thumbnail wp-post-image" alt="GooglePlus" />   <h5>  Why Google+ is So Important to Organic SEO </h5>
+    
+         </article>
+     </a>
+     </li>
+ 
+</ul>
+</div>
+
+
+		</div>
+	
+
+		</div>
+<!--THREE-->
+		<div class="newsroom-navigation-three" style="display: none;box-shadow: 0px 0px 30px rgba(165, 165, 165, 0.5);">
+	<div class="newsroom-navigation-inner-three">
+
+		<ul id="newsroom-options-three">
+<a href="/category/blogging/"><li>Blogging</li></a>
+<a href="/category/cloud-computing/"><li>Cloud Computing</li></a>
+<a href="/category/crm/"><li>CRM</li></a>
+<a href="/category/ecommerce/"><li>e-Commerce</li></a>
+<a href="/category/google/"><li>Google</li></a>
+<a href="/category/newsletters/"><li>Newsletters</li></a>
+<a href="/category/acting/"><li>Acting</li></a>
+<br>
+<a href="/category/online-advertising/"><li>Online Advertising</li></a>
+<a href="/category/online-video/"><li>Online Video</li></a>
+<a href="/category/point-of-sale/"><li>Point of Sale</li></a>
+<a href="/category/seo/"><li>SEO</li></a>
+<a href="/category/writing-for-online/"><li>Writing for Online</li></a>
+<a href="/category/faqs/"><li>FAQs</li></a>
+		</ul>
+
+		</div>
+
+			<div class="category-slices"> 
+<div id="post-left-menu">
+<ul class"header-posts">
+
+                <li class="menu-layout-img">
+             <a href="http://aboutus.co.nz/confused-about-seo/">     
+             <article class="menu-posts-one" style="margin-top:0;">
+             <img width="200" height="200" src="http://d2mnffzlinsz3q.cloudfront.net/wp-content/uploads/2014/04/confused-200x200.jpg" class="attachment-post-thumbnail wp-post-image" alt="confused" />   <h5>  Confused About SEO? </h5>
+    
+         </article>
+     </a>
+     </li>
+ 
+        <li class="menu-layout-img">
+             <a href="http://aboutus.co.nz/36-staggering-youtube-stats/">     
+             <article class="menu-posts-one" style="margin-top:0;">
+             <img width="200" height="200" src="http://d2mnffzlinsz3q.cloudfront.net/wp-content/uploads/2014/04/popcorn-200x200.jpg" class="attachment-post-thumbnail wp-post-image" alt="popcorn" />   <h5>  36 Staggering YouTube Stats </h5>
+    
+         </article>
+     </a>
+     </li>
+ 
+        <li class="menu-layout-img">
+             <a href="http://aboutus.co.nz/how-social-media-and-online-video-are-shaping-customer-service/">     
+             <article class="menu-posts-one" style="margin-top:0;">
+             <img width="200" height="200" src="http://d2mnffzlinsz3q.cloudfront.net/wp-content/uploads/2014/04/Screen-shot-2014-04-23-at-8.54.14-AM-200x200.png" class="attachment-post-thumbnail wp-post-image" alt="Screen shot 2014-04-23 at 8.54.14 AM" />   <h5>  How Online Video is Shaping Customer Service </h5>
+    
+         </article>
+     </a>
+     </li>
+ 
+</ul>
+</div>
+
+		</div>
+</div>
+
+
+<!--FOUR-->
+		<div class="newsroom-navigation-four" style="display: none;box-shadow: 0px 0px 30px rgba(165, 165, 165, 0.5);">
+	<div class="newsroom-navigation-inner-four">
+
+		<ul id="newsroom-options-four">
+
+
+
+		</ul>
+
+		</div>
+		<div class="category-slices"> 
+<div id="post-left-menu">
+<ul class"header-posts">
+
+                <li class="menu-layout-img">
+             <a href="http://aboutus.co.nz/online-jargon-busting/">     
+             <article class="menu-posts-one" style="margin-top:0;">
+             <img width="200" height="200" src="http://d2mnffzlinsz3q.cloudfront.net/wp-content/uploads/2014/04/enhanced-assessment-200x200.gif" class="attachment-post-thumbnail wp-post-image" alt="enhanced assessment" />   <h5>  Online Jargon Busting </h5>
+    
+         </article>
+     </a>
+     </li>
+ 
+        <li class="menu-layout-img">
+             <a href="http://aboutus.co.nz/about-us-for-actors/">     
+             <article class="menu-posts-one" style="margin-top:0;">
+             <img width="200" height="112" src="http://d2mnffzlinsz3q.cloudfront.net/wp-content/uploads/2014/03/F01-1213-katharine-hepburn-01.jpg" class="attachment-post-thumbnail wp-post-image" alt="F01-1213-katharine-hepburn-01" />   <h5>  About Us for Actors </h5>
+    
+         </article>
+     </a>
+     </li>
+ 
+        <li class="menu-layout-img">
+             <a href="http://aboutus.co.nz/ask-us-anything/">     
+             <article class="menu-posts-one" style="margin-top:0;">
+             <img width="200" height="133" src="http://d2mnffzlinsz3q.cloudfront.net/wp-content/uploads/2014/03/questions.jpg" class="attachment-post-thumbnail wp-post-image" alt="questions" />   <h5>  Questions&#8230;? Ask us anything! </h5>
+    
+         </article>
+     </a>
+     </li>
+ 
+</ul>
+</div>
+
+		</div>
+
+		</div>
+				<div class="newsroom-navigation-five" style="display: none;box-shadow: 0px 0px 30px rgba(165, 165, 165, 0.5);">
+	<div class="newsroom-navigation-inner-five">
+
+		<ul id="newsroom-options-five">
+<a href="/category/quick-tips/"><li>Quick Tips</li></a>
+<a href="/category/social-media-101/"><li>Social Media 101</li></a>
+<a href="/category/top-5/"><li>Top 5</li></a>
+
+
+
+		</ul>
+
+		</div>
+		<div class="category-slices">
+<div id="post-left-menu">
+<ul class"header-posts">
+
+                <li class="menu-layout-img">
+             <a href="http://aboutus.co.nz/looking-for-inspiration-kea-has-it/">     
+             <article class="menu-posts-one" style="margin-top:0;">
+             <img width="200" height="200" src="http://d2mnffzlinsz3q.cloudfront.net/wp-content/uploads/2014/04/inspiration-crop-200x200.jpg" class="attachment-post-thumbnail wp-post-image" alt="inspiration-crop" />   <h5>  Looking for Inspiration? Kea has it! </h5>
+    
+         </article>
+     </a>
+     </li>
+ 
+        <li class="menu-layout-img">
+             <a href="http://aboutus.co.nz/36-staggering-youtube-stats/">     
+             <article class="menu-posts-one" style="margin-top:0;">
+             <img width="200" height="200" src="http://d2mnffzlinsz3q.cloudfront.net/wp-content/uploads/2014/04/popcorn-200x200.jpg" class="attachment-post-thumbnail wp-post-image" alt="popcorn" />   <h5>  36 Staggering YouTube Stats </h5>
+    
+         </article>
+     </a>
+     </li>
+ 
+        <li class="menu-layout-img">
+             <a href="http://aboutus.co.nz/5-instagram-tools-for-better-marketing/">     
+             <article class="menu-posts-one" style="margin-top:0;">
+             <img width="200" height="200" src="http://d2mnffzlinsz3q.cloudfront.net/wp-content/uploads/2014/04/Screen-shot-2014-04-24-at-3.58.23-PM-200x200.png" class="attachment-post-thumbnail wp-post-image" alt="Screen shot 2014-04-24 at 3.58.23 PM" />   <h5>  5 Instagram Tools For Better Marketing </h5>
+    
+         </article>
+     </a>
+     </li>
+ 
+</ul>
+</div>
+
+
+		</div>
+
+		</div>
+				<div class="newsroom-navigation-six" style="display: none;box-shadow: 0px 0px 30px rgba(165, 165, 165, 0.5);">
+	<div class="newsroom-navigation-inner-six">
+
+		<ul id="newsroom-options-six">
+<a href="/category/entertainment/"><li>Entertainment</li></a>
+<a href="/category/freelancers/"><li>Freelancers</li></a>
+<a href="/category/hospitality/"><li>Hospitality</li></a>
+<a href="/category/retail/"><li>Retail</li></a>
+<a href="/category/tourism/"><li>Tourism</li></a>
+<a href="/category/trades/"><li>Trades</li></a>
+
+
+		</ul>
+
+		</div>
+		<div class="category-slices">
+<div id="post-left-menu">
+<ul class"header-posts">
+
+                <li class="menu-layout-img">
+             <a href="http://aboutus.co.nz/looking-for-inspiration-kea-has-it/">     
+             <article class="menu-posts-one" style="margin-top:0;">
+             <img width="200" height="200" src="http://d2mnffzlinsz3q.cloudfront.net/wp-content/uploads/2014/04/inspiration-crop-200x200.jpg" class="attachment-post-thumbnail wp-post-image" alt="inspiration-crop" />   <h5>  Looking for Inspiration? Kea has it! </h5>
+    
+         </article>
+     </a>
+     </li>
+ 
+        <li class="menu-layout-img">
+             <a href="http://aboutus.co.nz/5-instagram-tools-for-better-marketing/">     
+             <article class="menu-posts-one" style="margin-top:0;">
+             <img width="200" height="200" src="http://d2mnffzlinsz3q.cloudfront.net/wp-content/uploads/2014/04/Screen-shot-2014-04-24-at-3.58.23-PM-200x200.png" class="attachment-post-thumbnail wp-post-image" alt="Screen shot 2014-04-24 at 3.58.23 PM" />   <h5>  5 Instagram Tools For Better Marketing </h5>
+    
+         </article>
+     </a>
+     </li>
+ 
+        <li class="menu-layout-img">
+             <a href="http://aboutus.co.nz/lucky-taco-lucky-you/">     
+             <article class="menu-posts-one" style="margin-top:0;">
+             <img width="200" height="200" src="http://d2mnffzlinsz3q.cloudfront.net/wp-content/uploads/2014/04/Screen-shot-2014-04-23-at-3.45.43-PM-200x200.png" class="attachment-post-thumbnail wp-post-image" alt="Screen shot 2014-04-23 at 3.45.43 PM" />   <h5>  Lucky Taco, Lucky You! </h5>
+    
+         </article>
+     </a>
+     </li>
+ 
+</ul>
+</div>
+
+
+		</div>
+
+		</div>
+<script src="../../js/jquery-1.9.1.js"></script>
+
+
+<script>
+
+
+
+$(function(){
+  
+
+  /* Toggle ONE   */
+    
+$('.newsroom-navigation ul > li:first-child').mouseover(function() {
+   $('.newsroom-navigation-one').css('display','block');
+  //.show(0)
+})
+$('.newsroom-navigation-one').mouseleave(function() {
+   $('.newsroom-navigation-one').css('display','none');
+  //.show(0)
+})
+
+/* Toggle TWO  */
+$('.newsroom-navigation ul > li:nth-child(2)').hover(function() {
+   $('.newsroom-navigation-two').css('display','block');
+  //.show(0)
+})
+
+$('.newsroom-navigation-two').mouseleave(function() {
+   $('.newsroom-navigation-two').css('display','none');
+  //.show(0)
+})
+
+/* Toggle THREE  */
+
+$('.newsroom-navigation ul > li:nth-child(3)').hover(function() {
+   $('.newsroom-navigation-three').css('display','block');
+  //.show(0)
+})
+
+$('.newsroom-navigation-three').mouseleave(function() {
+   $('.newsroom-navigation-three').css('display','none');
+  //.show(0)
+})
+/* Toggle four  */
+
+/* Toggle five  */
+
+$('.newsroom-navigation ul > li:nth-child(5)').hover(function() {
+   $('.newsroom-navigation-five').css('display','block');
+  //.show(0)
+})
+
+$('.newsroom-navigation-five').mouseleave(function() {
+   $('.newsroom-navigation-five').css('display','none');
+  //.show(0)
+})
+/* Toggle six  */
+
+$('.newsroom-navigation ul > li:nth-child(6)').hover(function() {
+   $('.newsroom-navigation-six').css('display','block');
+  //.show(0)
+})
+
+$('.newsroom-navigation-six').mouseleave(function() {
+   $('.newsroom-navigation-six').css('display','none');
+  //.show(0)
+})
+
+
+
+/* Toggle if mouse is on on list items  */
+$('.newsroom-navigation ul > li:first-child').hover(function() {
+   $('.newsroom-navigation-two').css('display','none');
+    $('.newsroom-navigation-three').css('display','none');
+     $('.newsroom-navigation-four').css('display','none');
+      $('.newsroom-navigation-five').css('display','none');
+    $('.newsroom-navigation-six').css('display','none');
+  
+  //.show(0)
+})
+$('.newsroom-navigation ul > li:nth-child(2)').hover(function() {
+   $('.newsroom-navigation-one').css('display','none');
+   $('.newsroom-navigation-three').css('display','none');
+    $('.newsroom-navigation-four').css('display','none');
+     $('.newsroom-navigation-five').css('display','none');
+    $('.newsroom-navigation-six').css('display','none');
+  //.show(0)
+})
+$('.newsroom-navigation ul > li:nth-child(3)').hover(function() {
+	$('.newsroom-navigation-one').css('display','none');
+   $('.newsroom-navigation-two').css('display','none');
+    $('.newsroom-navigation-four').css('display','none');
+     $('.newsroom-navigation-five').css('display','none');
+    $('.newsroom-navigation-six').css('display','none');
+  //.show(0)
+})
+$('.newsroom-navigation ul > li:nth-child(4)').hover(function() {
+	$('.newsroom-navigation-one').css('display','none');
+   $('.newsroom-navigation-two').css('display','none');
+    $('.newsroom-navigation-three').css('display','none');
+     $('.newsroom-navigation-five').css('display','none');
+    $('.newsroom-navigation-six').css('display','none');
+  //.show(0)
+})
+$('.newsroom-navigation ul > li:nth-child(5)').hover(function() {
+	$('.newsroom-navigation-one').css('display','none');
+   $('.newsroom-navigation-two').css('display','none');
+    $('.newsroom-navigation-three').css('display','none');
+     $('.newsroom-navigation-four').css('display','none');
+      $('.newsroom-navigation-six').css('display','none');
+
+  //.show(0)
+})
+$('.newsroom-navigation ul > li:nth-child(6)').hover(function() {
+	$('.newsroom-navigation-one').css('display','none');
+   $('.newsroom-navigation-two').css('display','none');
+    $('.newsroom-navigation-three').css('display','none');
+     $('.newsroom-navigation-four').css('display','none');
+     $('.newsroom-navigation-five').css('display','none');
+  //.show(0)
+})
+$('.newsroom-navigation ul > li:nth-child(7)').hover(function() {
+	$('.newsroom-navigation-one').css('display','none');
+   $('.newsroom-navigation-two').css('display','none');
+    $('.newsroom-navigation-three').css('display','none');
+     $('.newsroom-navigation-four').css('display','none');
+     $('.newsroom-navigation-five').css('display','none');
+     $('.newsroom-navigation-six').css('display','none');
+  //.show(0)
+})
+
+//This is for the short menu
+$('.menuIcon').hover(function() {
+	$('.newsroom-navigation').css('height','400px');
+
+})
+$('.newsroom-article').hover(function() {
+	$('.newsroom-navigation').css('height','45px');
+
+})
+$(window).resize(function() {
+$('.newsroom-navigation').css('height','45px');
+})
+});
+		</script>
+
+		<script>
+
+function loadXMLDoc()
+{
+var xmlhttp;
+if (window.XMLHttpRequest)
+  {// code for IE7+, Firefox, Chrome, Opera, Safari
+  xmlhttp=new XMLHttpRequest();
+  }
+else
+  {// code for IE6, IE5
+  xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+  }
+xmlhttp.onreadystatechange=function()
+  {
+  if (xmlhttp.readyState==4 && xmlhttp.status==200)
+    {
+    document.getElementById("win").innerHTML=xmlhttp.responseText;
+    }
+  }
+xmlhttp.open("GET","/wp-content/themes/aboutus/posts-in-category-two.php",true);
+xmlhttp.send();
+}
+
+
+</script>
+
+
+
+<style type="text/css">
+article#post-565{
+width: 660px;
+margin-left: auto;
+margin-right: auto;
+}
+article ul li {
+	list-style: none;
+}
+.side{
+	float: right;
+}
+
+
+
+</style>
+
+<div class="newsroom-container clearfix" style="width:1130px; margin-left:auto; margin-right:auto;">
+	<div class="newsroom-article" style="height:auto; width: 760px; float:left;">
+		
+
+
+				          <article id="post-278" class="post-278 page type-page status-publish hentry">
+            <h1>Privacy Policy</h1>
+            <p>This Site is operated by <span style="text-decoration: underline;">Socialize Group Limited</span> (together “About Us”, the “Company” <span style="text-decoration: underline;">or the “Website”</span>).  This page sets forth the Privacy Policy (the “Policy”) for the website www.aboutus.co.nz, all other sites owned and operated by Social Racing ltd that redirect to www.aboutus.co.nz, and all subdomains (collectively, the “Site”), and the service owned and operated by the Company (together with the Site, the “Service”)</p>
+<p>We take the responsibility of having your personal information very seriously. We use your personal information only for providing and improving the Service. We treat your personal information as we would and do treat our own.</p>
+<p>By using the Service, you consent to the collection and use of information in accordance with this Policy.</p>
+<p>The Company reserves the right, at its sole discretion, to modify or replace this Policy by posting the updated version on the Site. It is your responsibility to check this Policy periodically for changes. Your continued use of the Service following the posting of any changes to this Policy constitutes your acceptance of those changes.</p>
+<p><b>COLLECTION OF INFORMATION</b><b></b></p>
+<p>We may collect and process the following information about you:</p>
+<ul>
+<li>information (such as your name, email and postal address, telephone number, sex, and country of residence) that you provide by completing forms on the Site, including if you register as a user of the Service, subscribe to our newsletter, upload or submit any material through the Site, or request any information;</li>
+<li>your log-in and password details in connection with the account sign-in process</li>
+<li>details of any requests or transactions made by you through the Service;</li>
+<li>communications you send to us, for example to report a problem or to submit queries, concerns, or comments regarding the Service or its content;</li>
+<li>information that you post to the Site in the form of comments or contributions to discussions; and</li>
+<li>IP addresses.</li>
+</ul>
+<p><b>USES OF YOUR PERSONAL INFORMATION</b><b></b></p>
+<p>We will use the personal information you provide to:</p>
+<ul>
+<li>identify you when you sign-in to your account;</li>
+<li>enable us to provide you with the Services;</li>
+<li>send you information we think you may find useful or which you have requested from us;</li>
+<li>present projects to you when you use the Service which we believe will be of interest based on your geographic location and previous use of the Service;</li>
+<li>administer your account with us;</li>
+<li>enable us to contact you regarding any question you make through the Service;</li>
+<li>analyze the use of the Service and the people visiting to improve our content and Services; and</li>
+<li>use for other purposes that we may disclose to you when we request your information.</li>
+<li>Project Creators receive the email addresses of their backers if the project is successfully funded.</li>
+</ul>
+<p>Social Racing ltd never receive users&#8217; credit card information.</p>
+<p><b>EMAIL</b><b></b></p>
+<p>We want to communicate with you only if you want to hear from us. We try to keep emails to a minimum and give you the ability to opt out when we can.</p>
+<p>We will send you email relating to your syndicate on a weekly basis.</p>
+<p>You will also receive certain email notifications, for which you may opt-out.</p>
+<p>We may send you service-related announcements on rare occasions when it is necessary to do so.</p>
+<p><b>THIRD-PARTY SERVICES</b><b></b></p>
+<p>We never post anything to your accounts with Facebook, Twitter, or any other third-party sites without your permission.</p>
+<p>Except for the purposes of providing the Services, we will not give your name or personal information to third parties.</p>
+<p><b>TECHNOLOGY</b><b></b></p>
+<p>Cookies are small pieces of information which are issued to your computer when you visit a website and which store and sometimes track information about your use of the Service. Social Racing uses cookies to help recognize you as a repeat visitor, to improve the quality of our Service, and to try and make your browsing experience meaningful. When you enter our Site, our web server sends a cookie to your computer which allows us to recognize your computer but not specifically who is using it. By associating the identification numbers in the cookies with other customer information when, for example, you log-in to the Service, then we know that the cookie information relates to you. Some of the cookies used by our Service are served by us, and some are served by third parties who are delivering services on our behalf.</p>
+<p>Most web browsers automatically accept cookies but, if you prefer, you can change your browser to prevent that or to notify you each time a cookie is set. You can also learn more about cookies by visiting <a href="http://www.allaboutcookies.org/">www.allaboutcookies.org</a> which includes additional useful information on cookies and how to block cookies using different browsers. By blocking or deleting cookies used on our Service, you may not be able to take full advantage of our Service.</p>
+<p><b>VOLUNTARY DISCLOSURE</b><b></b></p>
+<p>Any personal information or content that you voluntarily disclose in public areas of the Site becomes publicly available and can be collected and used by other users. You should exercise caution before disclosing your personal information through these public venues.</p>
+<p>Social Racing ltd never receive users’ credit card information.</p>
+<p><b>WRAP-UP</b><b></b></p>
+<p>Social Racing ltd reserves the right to disclose your personally identifiable information as required by law and when we believe that disclosure is necessary to protect our rights, or in the good-faith belief that it is necessary to comply with the law.</p>
+<p>To modify or delete the personal information you have provided to us, please contact info@socialracing.co.nz. We may retain certain information as required by law or for necessary business purposes.</p>
+<p>On request, we will give you a copy of all the personal information about you that we hold. This information is subject to a fee not exceeding the prescribed fee permitted by law.</p>
+<p>People under 18 (or the legal age in your jurisdiction) are not permitted to use SocialRacing.co.nz, and so this privacy policy makes no provision for their use of the site.</p>
+<p>Information that you submit through the Service may be transferred to countries outside the European Economic Area (“EEA”) to provide the Service to you. For example, our servers are in the United States. If we transfer your information outside the EEA in this way, we will take steps to ensure that your privacy rights continue to be protected.</p>
+
+		    		    <footer class="entry-meta">
+			  		    </footer><!-- .entry-meta -->
+		  </article>			 
+
+	</div>
+
+	<div class="side">
+	<link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+<style type="text/css">
+#home-video-modal{
+	display: none;
+}
+.btn#button-newsroom{
+	text-shadow:none;
+width: 265px;
+}
+.btn#button-newsroom h5{
+	color: #333;
+}
+.btn#button-newsroom h5:hover{
+color: #333;
+}
+.sign-up-here#newsletters{
+
+}
+.sign-up-here{
+  border-bottom:none;
+}
+a.btn{
+
+	margin-top: 5px;
+}
+.newsletter-border{
+width:98%; 
+
+height: 180px;
+padding-bottom: 30px;
+ background-image: url('');
+
+}
+input[type="email"]{
+
+  border: 3px solid red;
+  border-radius:14px;
+}
+.newsroom-container{
+  background-color: #f7f7f7;
+}
+.input-newsroom{
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.submit-newsroom{
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#gs_tti50 input{
+  width: 100% !important;
+
+
+  height: 22px !important;
+background-image: none !important;
+
+border: 3px solid #ffdb00 !important;
+border-radius: 10px !important;
+box-shadow: none !important;
+font-size: 14px !important;
+padding: 2px 0 2px 5px !important;
+}
+   input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus {
+border: 1px solid #f7f7f7 !important;
+box-shadow: none !important;
+}
+
+
+.gsc-input-box{
+  border: none;
+  background-color: #f7f7f7;
+}
+.gsc-search-button input{
+border:none;
+
+}
+input.gsc-search-button{
+background-color: #ffdb00 !important;
+margin-top: 20px;
+padding: 7px 50px;
+margin-left: 31%;
+}
+input.gsc-search-button:hover{
+  background-color: #FFF500;
+}
+.gsc-control-cse{
+  background-color: #f7f7f7;
+  border-color: #f7f7f7;
+  margin-bottom: 80px;
+}
+.gsst_a .gscb_a{
+  display: none !important;
+}
+.gsst_a{
+  padding: 0 !important;
+}
+.popular-articles{
+  width:100%;
+}
+#popular-header{
+color: #21A3A1;
+text-transform: uppercase;
+font-weight: 500;
+
+font-family: 'Avenir Next';
+font-size: 28px;
+text-align: center;
+}
+.popular-articles #subs{
+  text-decoration: underline;
+  line-height: 170%;
+font-size: 18px;
+font-weight: 400;
+font-family: 'Avenir Next';
+text-align: center;
+}
+.sidebar-guide{
+  width:100%;
+
+
+
+}
+.sidebar-guide:hover{
+  opacity: 0.8;
+
+}
+table.gsc-search-box td{
+clear: both;
+width: 99%;
+float: left;
+
+}
+
+
+.sidebar-guide img{
+  width: 30%;
+  margin-left: 36%;
+  margin-bottom: 40px;
+  margin-top: 30px;
+}
+.newsroom-container .adhubdiv{
+  right: 0;
+}
+#signup-to-news{
+  font-family: 'Avenir Next';
+  font-weight: 600;
+  text-align: center;
+  color: red;
+
+}
+#signup-to-news-two{
+  font-family: 'Avenir Next';
+  font-weight: 300;
+  text-align: center;
+  font-size: 20px;
+  text-transform: uppercase;
+  line-height:60%;
+  width: 75%; 
+  margin-left:auto; 
+  margin-right:auto;
+
+}
+.submit{
+  background-color: red;
+  color: white;
+  font-family: 'Avenir Next';
+  border-radius: 14px;
+  margin-left: 32%;
+}
+.submit:hover{
+   background-color: red;
+  color: white;
+  font-family: 'Avenir Next';
+  border-radius: 14px;
+  margin-left: 32%;
+}
+.whos-using-this{
+  background-color: #21A3A1;
+  color: white;
+  width: 99%;
+  height: 600px;
+  border: 1px solid #21A3A1;
+  border-radius: 14px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: 'Avenir Next';
+
+
+
+}
+.whos-using-this h2{
+font-size: 24px;
+  font-weight: 200;
+  padding: 10px 0 10px 0;
+  text-transform: uppercase;
+  line-height: 80%;
+}
+#connections-using{
+  position: absolute;
+  color: white;
+  font-size: 400;
+  margin-top: -100px;
+  margin-left: 10px;
+    text-transform: capitalize;
+    text-align: left;
+
+}
+#connections-using span{
+
+  color: white;
+  font-size: 16px;
+  width: 100%;
+  text-align: left;
+
+}
+#get-started-for-free{
+  font-size: 18px;
+  color: white;
+}
+#search-submit{
+border: none;
+text-transform: uppercase;
+background-color: red;
+padding: 5px 10px 5px 10px;
+border-radius: 14px;
+color: white;
+background-color: 3px solid #ffdb00;
+}
+.sign-uphere-for-free:hover{
+  opacity: 0.8
+
+}
+#search-title{
+  color: #333;
+  font-style: italic;
+  padding:0;
+  margin: -10px;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Avenir Next';
+  text-align: center;
+}
+.gs-webResult.gs-result a.gs-title:link{
+
+  text-decoration: none !important;
+  font-weight: bold !important;
+}
+.gs-result .gs-title{
+  text-decoration: none !important;
+  font-weight: bold !important;
+}
+.gsc-thumbnail-inside, .gsc-url-top{
+  padding-left: 0 !important;
+}
+
+
+</style>
+
+<div class="adhubdiv" style="margin-bottom:10px;">
+       <div id="top-post-one">
+         
+
+
+
+     </div>
+     <!--SEARCH-->
+     <h1 id="search-title">Search <span>the Newsroom</span></h1>
+     <gcse:search></gcse:search>
+     
+
+
+
+         <!--POPULAR ARTICLES-->
+     <div class="popular-articles">
+       <h1 id="popular-header">Popular Articles</h1>
+     <a href="http://aboutus.co.nz/linkedin-pub/">  <h2 id="subs">LinkedIn Adds Publishing Feature</h2></a>
+      <a href="http://aboutus.co.nz/about-us-for-actors/"> <h2 id="subs">About Us For Actors</h2></a>
+      <a href="http://aboutus.co.nz/hashtag-your-venue/"> <h2 id="subs">Hashtag Your Venue</h2></a>
+
+     </div>
+
+     <!--THE GUIDE-->
+
+
+<div class="sidebar-guide">
+  <a href="/the_guide"><img src="http://d2mnffzlinsz3q.cloudfront.net/wp-content/uploads/2014/04/the-guide.png"></a>
+</div>
+
+
+     <div class="sign-up-here" id="profile">
+<!--<span id="right-sidebar"><p>Get your About Us Page!</p></span>-->
+ <!--<a href="http://aboutus.co.nz/signup">
+<!--<a class="btn clear" href="javascript:;" data-toggle="modal" data-target="#home-video-modal">WATCH VIDEO <span class="arrow-small"></span></a>
+  <div id="home-video-modal" class="modal hide fade in" tabindex="-1" role="dialog" aria-labelledby="homeVideoModal" aria-hidden="false" style="">
+        <div class="modal-header" style="padding-bottom: 0px;">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <h2>About Us</h2>
+        </div>
+        <div class="modal-body" style="padding-bottom: 25px;">
+          <iframe width="500" height="310" src="http://www.youtube.com/embed/tyMeCmpX0bo" frameborder="0" allowfullscreen="true"></iframe>
+        </div>
+    </div>
+</a>-->
+<iframe width="300" height="250" src="//www.youtube.com/embed/tyMeCmpX0bo?feature=player_embedded" frameborder="0" showcontrols="0" allowfullscreen></iframe>
+
+
+<br></br>
+</div>
+<div class="sign-uphere-for-free">
+<a href="/signup" targe="_blank"><img src="http://d2mnffzlinsz3q.cloudfront.net/wp-content/uploads/2014/04/g.png"></a>  
+</div>
+<div class="sign-up-here" id="newsletters">
+  <!--<span id="right-sidebar"><p>Newsletter!</p></span>-->
+
+  <!--<img src="https://31.media.tumblr.com/33822f6b1622f18f1846017415937f2a/tumblr_mtfd2rWqJB1qzfam9o1_500.jpg">-->
+  <br>
+  <div class="newsletter-border">
+  <h2 id="signup-to-news"style="width: 75%; margin-left: auto; margin-right: auto;">SIGN UP</h2>
+
+
+ <h5 id="signup-to-news-two"style=""> For an About Us<br></br> Newsletter  </h5>
+
+ 
+ <!DOCTYPE HTML>
+<html>
+<head>
+
+<style type="text/css">
+.submit{
+	background-color: #333;
+	border: none;
+	text-transform: uppercase;
+	background-color: red;
+	padding: 5px 10px 5px 10px;
+}
+.submit:hover{
+	background-color: #474747;
+	border: none;
+	text-transform: capitalize;
+	color: #eee;
+	padding: 5px 10px 5px 10px;
+}
+#fieldEmail[placeholder]{
+	font-style: italic;
+
+}
+</style>
+
+
+</head>
+<form action="http://socializegroupltd.createsend.com/t/d/s/cilkl/" method="post">
+    <p class="input-newsroom">
+        <label for="fieldEmail"></label><br />
+        <input id="fieldEmail" name="cm-cilkl-cilkl" type="email" placeholder="Email" required />
+    </p>
+    <p class="submit-newsroom">
+        <button class="submit" type="submit">Subscribe</button>
+    </p>
+</form>
+
+</html></div>
+<div class="whos-using-this">
+   <h2>WHO'S USING<br></br>ABOUT US?</h2>
+   <a href="http://aboutus.co.nz/about/ruby-communications-ltd/" target="_blank"><div><img src="http://d2mnffzlinsz3q.cloudfront.net/wp-content/uploads/2013/12/114134459.jpg"><h2 id="connections-using">Ruby Connections Ltd<br><span>Public Relations</span></h2></div></a>
+   <a href="http://aboutus.co.nz/about/orakei-electrical/" target="_blank"><div><img src="http://d2mnffzlinsz3q.cloudfront.net/wp-content/uploads/2014/03/elect03.jpg"><h2 id="connections-using">Orakei Electrical<br><span>Trades Electricil</span></h2></div></a>
+   <a href="http://aboutus.co.nz/about/lesters-of-whitford/#_=_" target="_blank"><div><img src="http://d2mnffzlinsz3q.cloudfront.net/wp-content/uploads/2014/03/Lesters_LoRes-19.jpg"><h2 id="connections-using">Lesters of Whitford<br><span>Bespoke Furniture</span></h2></div></a>
+   <a href="/signup" target="_blank"><h2 id="get-started-for-free">get started for free</h2></a>
+ </div>
+
+</div>
+
+
+
+
+<script>
+  (function() {
+    var cx = '014667713942878383745:hzikdiszzm0';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+
+
+
+
+</script>
+
+
+
+
+
+
+
+                  <div ID="DivHeadlineRect" style="margin-bottom:40px;">
+<script language="javascript" type="text/javascript">
+aimRenderAd(300, 250, '300x250','HeadlineRect','/SR=0/POS=POS1');
+if(!jQuery.browser.msie){
+HeadlineRect_frame = jQuery("#HeadlineRect")[0];
+HeadlineRect_frame.src = HeadlineRect_frame.src;
+}</script></div>	</div>
+
+
+</div>
+
+<!--<div id="paging"></div>--?
+
+
+<!-- START Nielsen Online SiteCensus V6.0 -->
+<!-- COPYRIGHT 2012 Nielsen Online -->
+<script type="text/javascript" src="//secure-nz.imrworldwide.com/v60.js">
+</script>
+<script type="text/javascript">
+ var pvar = { cid: "nz-adhub", content: "0", server: "secure-nz" };
+ var trac = nol_t(pvar);
+ trac.record().post();
+</script>
+<noscript>
+ <div>
+ <img src="//secure-nz.imrworldwide.com/cgi-bin/m?ci=nz-adhub&amp;cg=0&amp;cc=1&amp;ts=noscript"
+ width="1" height="1" alt="" />
+ </div>
+</noscript>
+<!-- END Nielsen Online SiteCensus V6.0 -->
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using disk: enhanced
+Database Caching 9/105 queries in 0.041 seconds using disk
+Object Caching 0/0 objects using disk
+Content Delivery Network via d2mnffzlinsz3q.cloudfront.net
+
+ Served from: aboutus.co.nz @ 2014-04-28 06:43:27 by W3 Total Cache -->
