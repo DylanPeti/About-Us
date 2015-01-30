@@ -842,7 +842,7 @@ git
 }
 
 .profile-info-panel {
-  width: 54px;
+  width: 80px;
   position: relative;
   left: 0;
   background: url(http://wp.aboutus.s3.amazonaws.com/img/profile-panel.png);
@@ -905,7 +905,7 @@ git
 .profile-stats .icon {
   background-image: url(http://wp.aboutus.s3.amazonaws.com/img/profile-stats.png);
   background-repeat: no-repeat;
-  width: 54px;
+  width: auto;
   height: 30px;
   display: block;
   margin: 0 0 6px 0;
@@ -923,6 +923,9 @@ git
   background-position: center -217px;
 }
 
+
+.profile-stats .twitter .icon,
+.profile-stats .linkedin .icon,
 .profile-stats .social .icon {
   background-position: center -330px;
 }
@@ -933,7 +936,7 @@ git
   text-shadow: none;
   box-shadow: none;
   height: 20px;
-  margin: 0 0 0 0;
+  margin: 0 15px 0 15px;
 }
 
 .signup-progress {
