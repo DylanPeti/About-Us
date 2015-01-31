@@ -65,7 +65,7 @@ get_template_part('header', 'newsroom'); ?>
 				 
 
 				</p>-->
-				<p>Complete your About Us page with a great background pic. If you have a greta shot of your business, upload it here. If you don't have a pic right now, no problem: your About Us page will use a map of your neighbourhood as the default background.</p>
+				<p>Complete your About Us page with a great background pic. If you have a great shot of your business, upload it here. If you don't have a pic right now, no problem: your About Us page will use a map of your neighbourhood as the default background.</p>
 		
 				<br />
 				<em>You can use JPEG or PNG images. The ideal image size for your background is 1920x1100px.</em>
