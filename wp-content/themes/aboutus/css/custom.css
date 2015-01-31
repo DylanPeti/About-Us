@@ -1605,7 +1605,7 @@ text-transform: uppercase;
 input, input:hover{ box-shadow: none !important; border: 1px solid #ddd !important; height: 28px !important; border-radius: 0 !important; width: 170px !important; padding: 0 0 0 5px !important;}
 input#fieldEmail{ margin-left: 62px; color: #4C4B4B; }
 #searchsubmit{ background: url('/wp-content/uploads/2014/07/search-icon.png') no-repeat 240px 18px; background: url('/wp-content/uploads/2014/07/search-icon.png') no-repeat 0 0; width: 30px !important; border: none !important; margin-left: 5px; position: relative; top: 2px; right: 2px; }
-.lwa-form input[type="password"], .lwa-form input[type="text"] { width: 80% !important; height: 40px !important; margin-left: 30px;}
+.lwa-form input[type="password"], .lwa-form input[type="text"] { width: 85% !important; height: 40px !important; margin-left: 30px;}
 #lwa_wp-submit{ padding: 0; height: 40px !important; border: 1px solid #ddd; width: 170px; box-shadow: none;}
 #lwa_wp-submit:hover{ background-color: #33A09F; color: #fff; padding: 0; height: 40px !important; border: none; width: 170px; box-shadow: none;}
 
@@ -1644,7 +1644,7 @@ margin-left: 40px;
 
 .modal-header{border: none; } 
 .modal-header .close {margin-top: 2px; width: auto; } 
-.lwa .lwa-username-label, .lwa .lwa-password-label{display: block; width: 70px; padding: 0 !important; margin: 0; }
+.lwa .lwa-username-label, .lwa .lwa-password-label{display: block; width: 125px; padding: 0 !important; margin: 0; }
 .lwa .lwa-username-label label, .lwa .lwa-password-label label{display: block; margin-top: 10px; }
 .lwa-submit-links label {width: 270px; float: left; margin: 10px 0 0 15px; }
 .lwa-submit-links input[type="checkbox"]{margin: 6px 0 0 15px; float: left; width: 20px !important; }
