@@ -545,7 +545,7 @@ function get_over_stats()
         $data = new \GADWidgetData();        
         $link_uri = '/about/' . $post->post_name;
         $stats[] = array(
-            'key'   => 'views',
+            'key'   => 'user',
             'title' => 'Page Views',
             'value' => $data->gad_pageviews_text($link_uri)
         );
@@ -584,12 +584,11 @@ function get_over_stats()
         );
 
         $stats[] = array(
-            'key'   => 'maps',
+            'key'   => 'map-marker',
             'title' => 'Social Feed Views',
             'value' => (int) $result
         );
     }
-
 
     try{
         $fb = get_sms_connection( get_sms_by_name('facebook') );

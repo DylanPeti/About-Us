@@ -902,33 +902,48 @@ git
   font-style: italic;
 }
 
-.profile-stats .icon {
-  background-image: url(http://wp.aboutus.s3.amazonaws.com/img/profile-stats.png);
-  background-repeat: no-repeat;
+/*.profile-stats .icon {*/
+  /*background-image: url(http://wp.aboutus.s3.amazonaws.com/img/profile-stats.png);*/
+  /*background-repeat: no-repeat;*/
+  /*width: auto;*/
+  /*height: 30px;*/
+  /*display: block;*/
+  /*margin: 0 0 6px 0;*/
+/*}*/
+
+/*.profile-stats .visits .icon {*/
+  /*background-position: center 0px;*/
+/*}*/
+
+/*.profile-stats .emails .icon {*/
+  /*background-position: center -111px;*/
+/*}*/
+
+/*.profile-stats .maps .icon {*/
+  /*background-position: center -217px;*/
+/*}*/
+
+.profile-stats i.fa {
   width: auto;
   height: 30px;
   display: block;
   margin: 0 0 6px 0;
+  padding: 0 0 5px 5px;
 }
-
-.profile-stats .visits .icon {
-  background-position: center 0px;
+.profile-stats i.fa:before {
+  color: #FFF;
+  font-size: 36px;
 }
-
-.profile-stats .emails .icon {
-  background-position: center -111px;
-}
-
-.profile-stats .maps .icon {
-  background-position: center -217px;
-}
-
 
 .profile-stats .twitter .icon,
 .profile-stats .linkedin .icon,
 .profile-stats .social .icon {
   background-position: center -330px;
 }
+
+
+
+
 
 .profile-info-panel .btn {
   background: #2BA3A0 url(http://wp.aboutus.s3.amazonaws.com/img/icon/dashboard.png) no-repeat center center;
