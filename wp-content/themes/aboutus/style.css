@@ -1050,8 +1050,8 @@ git
 }
 
 .form label.error {
-  color: #000;
-  margin: 0 0 10px 0;
+  color: #950000;
+  margin: 0 0 10px 3px;
 }
 
 .form .text {
@@ -2872,6 +2872,11 @@ margin: 15px 0 0;
 }
 .section.default.container{
   background-color: #fff;
+}
+
+#recaptcha_table {
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 
 

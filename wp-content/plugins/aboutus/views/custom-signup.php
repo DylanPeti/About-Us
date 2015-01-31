@@ -54,7 +54,7 @@
               </div>
             </div>
             <div class="form-actions">
-              <a class="btn change-step" href="javascript:;" data-step="2">Continue</a>
+              <a class="btn change-step continue" href="javascript:;" data-step="2">Continue</a>
             </div>
           </div>
           <div class="step step-2 hidden">
@@ -199,8 +199,8 @@ if(count($business_categories)): foreach($business_categories as $value => $labe
                  </div>
             </div>
             <div class="form-actions">
-              <a class="btn clear change-step" href="javascript:;"  data-step="1">Back</a>
-              <a class="btn change-step" href="javascript:;"  data-step="3">Continue</a>
+              <a class="btn clear change-step back" href="javascript:;"  data-step="1">Back</a>
+              <a class="btn change-step continue" href="javascript:;"  data-step="3">Continue</a>
             </div>
           </div>
           <div class="step step-3 hidden">
@@ -271,8 +271,8 @@ if(count($business_categories)): foreach($business_categories as $value => $labe
 
 
             </div>
-             <div class="form-row form-row-double">
-             <div class="left">
+             <div class="form-row form-row-double text-center">
+<!--             <div class="left">-->
                 <li style="list-style:none;"id="field_4_27" class="gfield gfield_error">
                    <label class="gfield_label" for="input_4_27">Captcha</label>
                    <script type="text/javascript"> var RecaptchaOptions = {theme : 'clean'}; if(parseInt('19') > 0) {RecaptchaOptions.tabindex = 19;}</script>
@@ -281,7 +281,7 @@ if(count($business_categories)): foreach($business_categories as $value => $labe
                    <script type="text/javascript" src="http://www.google.com/recaptcha/api/js/recaptcha.js"></script>
                    </div>
                   </li> 
-            </div>
+<!--            </div>-->
             <!-- CAPTCHA -->
            
            </div>
@@ -298,8 +298,8 @@ if(count($business_categories)): foreach($business_categories as $value => $labe
             </div>
             
             <div class="form-actions">
-              <a class="btn clear change-step" href="javascript:;"  data-step="2">Back</a>
-              <a id="submit-form" class="btn submit-form" href="javascript:;">Continue</a>
+              <a class="btn clear change-step back" href="javascript:;"  data-step="2">Back</a>
+              <a id="submit-form" class="btn submit-form continue" href="javascript:;">Continue</a>
             </div>
 
              <input type='hidden' class='gform_hidden' name='is_submit_4' value='1' />
@@ -392,21 +392,18 @@ $(function(){
   });
 
 
-  $(".change-step").on('click', function(e){
-    var step = $(this).attr('data-step');
+    $(".change-step").on('click', function(e){
+        var step = $(this).attr('data-step');
+        // Validate current step
+        if( $(this).hasClass('back') || validator.form()) {
+            $(".step").addClass('hidden');
+            $(".step-" + step).removeClass('hidden');
 
-    if(validator.form()) {
-      // Validate current step
-      $(".step").addClass('hidden');
-      $(".step-" + step).removeClass('hidden');
-
-      $("#progress-progress").removeClass('step-1 step-2 step-3 step-4').addClass('step-' + step);
-      $("#progress-orb").removeClass('step-1 step-2 step-3 step-4').addClass('step-' + step);
-      $("#progress-label").html(step);
-
-    }
-
-  });
+            $("#progress-progress").removeClass('step-1 step-2 step-3 step-4').addClass('step-' + step);
+            $("#progress-orb").removeClass('step-1 step-2 step-3 step-4').addClass('step-' + step);
+            $("#progress-label").html(step);
+        }
+    });
 
   $("#submit-form").on('click', function(e){
     $("#signup-form").submit();
