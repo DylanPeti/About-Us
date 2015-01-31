@@ -6,8 +6,6 @@
 
 get_template_part('header', 'newsroom'); ?>
 
-
-
     <div class="section default container">
       <div class="container">
       	<?php get_sidebar('profile'); ?>
@@ -15,15 +13,13 @@ get_template_part('header', 'newsroom'); ?>
 
 			<header class="entry-header">
 				<h1 class="entry-title">Edit Images</h1>
-
 			</header>
 
 			<h3>Logo</h3>
 			<div class="entry-content">
 				<!-- <p>Upload your business logo here. We'll display it on your profile for customers and other business owners to see.</p>
 				<p>Your logo should be JPG or PNG format.<br/><em>Optimal dimensions for your Logo are 220x220px.</em></p> -->
-				<p>Upload your business logo to your About Us page here. Click select file, choose your logo then hit the Upload Logo button.
- <br />
+				<p>Upload your business logo to your About Us page here. Click select file, choose your logo then hit the Upload Logo button.<br />
                 </p>
                 <br />
                 <em>You can use JPEG or PNG images. The ideal image size for your logo is 220x220px.</em>
@@ -48,9 +44,7 @@ get_template_part('header', 'newsroom'); ?>
 					</form>
 					<div id="logo-delete" class="upload-delete-button<?php if($logo): ?> enabled<?php endif ?>" data-url="/upload-image?delete=logo">x</div>
 					<div id="logo-preview" class="logo-preview">
-<?php if($logo != ''): ?>
-						<img src="<?php echo $logo ?>" alt="Logo" />
-<?php endif ?>
+						<?php if($logo != ''): ?><img src="<?php echo $logo ?>" alt="Logo" /><?php endif ?>
 					</div>
 				</div>
 			</div>
@@ -61,9 +55,6 @@ get_template_part('header', 'newsroom'); ?>
 			<div class="entry-content">
 				<!-- <p>You can upload an optional background image to customise your profile. If you upload one, we'll display it as the background when visitors land on your public profile. They will still be able to view the map for your business at any time by clicking the map button.</p>
 				<p>Your background should be JPG or PNG format. It must be a large image.<br/>
-
-				 
-
 				</p>-->
 				<p>Complete your About Us page with a great background pic. If you have a great shot of your business, upload it here. If you don't have a pic right now, no problem: your About Us page will use a map of your neighbourhood as the default background.</p>
 		
@@ -89,16 +80,12 @@ get_template_part('header', 'newsroom'); ?>
 					</form>
 					<div id="background-delete" class="upload-delete-button<?php if($background): ?> enabled<?php endif ?>" data-url="/upload-image?delete=background">x</div>
 					<div id="background-preview" class="logo-preview">
-<?php if($background != ''): ?>
-						<img src="<?php echo $background ?>" alt="Background" />
-<?php endif ?>
+						<?php if($background != ''): ?><img src="<?php echo $background ?>" alt="Background" /><?php endif ?>
 					</div>
 				</div>
 			</div>
 
 			<div id="finished-editing"></div>
-
-				
 
 		</div>
       </div>
