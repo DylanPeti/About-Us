@@ -1,84 +1,83 @@
 $(function () {
 
 
-$("#upload-image, #upload-background").on('submit', function(e){
+	$("#upload-image, #upload-background").on('submit', function(e){
 		e.preventDefault();
 	});
 
-    $('#fileupload').fileupload({
+	$('#fileupload').fileupload({
 
-    	dataType: 'json',
-        add: function (e, data) {
-        	$("#logo-upload-filename").html(data.originalFiles[0].name);
-        	$("#logo-upload-button").removeClass('disabled').on('click', function (e) {
-        		e.preventDefault();
-        		$("#logo-preview").html($("<img>").attr('src', 'loading.gif'));
-	            data.submit();
-	        });
-        },
+		dataType: 'json',
+		add: function (e, data) {
+			$("#logo-upload-filename").html(data.originalFiles[0].name);
+			$("#logo-upload-button").removeClass('disabled').on('click', function (e) {
+				e.preventDefault();
+				$("#logo-preview").html($("<img>").attr('src', 'loading.gif'));
+				data.submit();
+			});
+		},
 
-        progressall: function (e, data) {
-        	$("#logo-upload-message").html('Uploading...');
-	        var progress = parseInt(data.loaded / data.total * 100, 10);
-	        $('#logo-progress .bar').css(
-	            'width',
-	            progress + '%'
-	        );
-	    },
+		progressall: function (e, data) {
+			$("#logo-upload-message").html('Uploading...');
+			var progress = parseInt(data.loaded / data.total * 100, 10);
+			$('#logo-progress .bar').css(
+				'width',
+				progress + '%'
+			);
+		},
 
-        done: function (e, data) {
-    		$("#logo-upload-message").html(data.result.message);
-            $("#logo-preview img").css({opacity: 1});
-    		if(data.result.status == 'success') {
-    		$("#logo-preview").html($("<img>").attr('src', data.result.image[0]));
-    		$("#logo-delete").show();
-    	} else {
-    		$("#logo-delete").hide();
-    	}
-    },
-       
-     });
-
-
-    $('#fileupload-background').fileupload({
-        dataType: 'json',
-        // forceIframeTransport: true,
+		done: function (e, data) {
+			$("#logo-upload-message").html(data.result.message);
+			$("#logo-preview img").css({opacity: 1});
+			if(data.result.status == 'success') {
+				$("#logo-preview").html($("<img>").attr('src', data.result.image[0]));
+				$("#logo-delete").show();
+			} else {
+				$("#logo-delete").hide();
+			}
+		}
+	});
 
 
-        add: function (e, data) {
-        	$("#background-upload-filename").html(data.originalFiles[0].name);
-        	$("#background-upload-button").removeClass('disabled').on('click', function (e) {
-        		e.preventDefault();
-        		$("#background-preview").html($("<img>").attr('src', 'loading_drk.gif'));
-	            data.submit();
-	        });
-        },
-        progressall: function (e, data) {
-        	$("#background-upload-message").html('Uploading...');
+	$('#fileupload-background').fileupload({
+		dataType: 'json',
+		// forceIframeTransport: true,
 
-	        var progress = parseInt(data.loaded / data.total * 100, 10);
-	        $('#background-progress .bar').css(
-	            'width',
-	            progress + '%'
-	        );
-	    },
-        done: function (e, data) {
-        	
-        	
-        	
-    		$("#background-upload-message").html(data.result.message);
-    		$("#background-preview img").css({opacity: 1});
-    		if(data.result.status == 'success') {
-    			
-    			$("#background-preview").html($("<img>").attr('src', data.result.image[0]));
-    			$("#background-delete").show();
-    			$('#finished-editing').html("<a href='/dash'><button class='b-blue c-white' id='custom-button'>Check out Your About Us Page!</button></a>");
-    		} else {
-    			
-    			$("#background-delete").hide();
-    		}
-        }
-    });
+
+		add: function (e, data) {
+			$("#background-upload-filename").html(data.originalFiles[0].name);
+			$("#background-upload-button").removeClass('disabled').on('click', function (e) {
+				e.preventDefault();
+				$("#background-preview").html($("<img>").attr('src', 'loading_drk.gif'));
+				data.submit();
+			});
+		},
+		progressall: function (e, data) {
+			$("#background-upload-message").html('Uploading...');
+
+			var progress = parseInt(data.loaded / data.total * 100, 10);
+			$('#background-progress .bar').css(
+				'width',
+				progress + '%'
+			);
+		},
+		done: function (e, data) {
+
+
+
+			$("#background-upload-message").html(data.result.message);
+			$("#background-preview img").css({opacity: 1});
+			if(data.result.status == 'success') {
+
+				$("#background-preview").html($("<img>").attr('src', data.result.image[0]));
+				$("#background-delete").show();
+				$('#finished-editing').html("<a href='/dash'><button class='b-blue c-white' id='custom-button'>Check out Your About Us Page!</button></a>");
+			} else {
+
+				$("#background-delete").hide();
+			}
+		}
+	});
 
 	$("#background-delete").on('click', function(e){
 		e.preventDefault();
@@ -115,7 +114,7 @@ $("#upload-image, #upload-background").on('submit', function(e){
 			}
 		});
 	});
-	});
+});
 
 
 
