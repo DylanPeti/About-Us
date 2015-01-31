@@ -9,6 +9,19 @@ $("#upload-image, #upload-background").on('submit', function(e){
 
     	dataType: 'json',
         add: function (e, data) {
+			var uploadErrors = [];
+			var acceptFileTypes = /^image\/(gif|jpe?g|png)$/i;
+			if(!acceptFileTypes.test(data.originalFiles[0]['type'])) {
+			  uploadErrors.push('This is not an image!');
+			}
+			if(data.originalFiles[0]['size'] > 2000000) {
+			  uploadErrors.push('The file is too big (max 2MB)!');
+			}
+			if(uploadErrors.length > 0) {
+				$("#logo-upload-message").html( '<span class="error">' + uploadErrors.join("<br/>") + '</span>' );
+			    return;
+			}
+
         	$("#logo-upload-filename").html(data.originalFiles[0].name);
         	$("#logo-upload-button").removeClass('disabled').on('click', function (e) {
         		e.preventDefault();
@@ -46,6 +59,20 @@ $("#upload-image, #upload-background").on('submit', function(e){
 
 
         add: function (e, data) {
+
+			var uploadErrors = [];
+			var acceptFileTypes = /^image\/(gif|jpe?g|png)$/i;
+			if(!acceptFileTypes.test(data.originalFiles[0]['type'])) {
+				uploadErrors.push('This is not an image!');
+			}
+			if(data.originalFiles[0]['size'] > 2000000) {
+				uploadErrors.push('The file is too big (max 2MB)!');
+			}
+			if(uploadErrors.length > 0) {
+				$("#background-upload-message").html( '<span class="error">' + uploadErrors.join("<br/>") + '</span>' );
+				return;
+			}
+
         	$("#background-upload-filename").html(data.originalFiles[0].name);
         	$("#background-upload-button").removeClass('disabled').on('click', function (e) {
         		e.preventDefault();

@@ -1,3 +1,6 @@
 *.DS_Store
-wp-content/uploads/
+/wp-content/uploads/*
+!/wp-content/uploads/.gitkeep
 *.sql
+/wp-content/debug.log
+/core/wp-config.php
