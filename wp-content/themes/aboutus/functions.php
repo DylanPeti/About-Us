@@ -686,8 +686,8 @@ function postArgs($numberposts = null, $offset = null, $category = null, $orderb
 function articles($postArgs){
  
    foreach ($postArgs as $item) {  
-    $postID = $item['ID'];     
-    $tag = get_the_category($postID); ?>
+    $postID = $item['ID'];
+	   $category = get_the_category($postID); ?>
 
     
 
@@ -697,7 +697,7 @@ function articles($postArgs){
                  </a>
                     <?php $base_url = "http://$_SERVER[HTTP_HOST]"; ?>
                    <a href="<?php echo $base_url . '/category/' . $category[0]->name ?>">
-                   <span id="tag"><?php echo $tag[0]->name; ?></span>
+                   <span id="tag"><?php echo $category[0]->name; ?></span>
                    </a>
 
                    <div class="left-section-description">

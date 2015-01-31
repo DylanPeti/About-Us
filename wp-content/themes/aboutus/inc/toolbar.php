@@ -25,8 +25,10 @@
         <li><a id="login-here" class="btn outline toolbar-login" href="aboutus.co.nz/wp-login.php" data-toggle="modal" data-target="#loginmodal">Logged in as <?php echo ($current_user->display_name)?$current_user->display_name:$current_user->user_login ?></a></li>
         <li><button id="your-dash"><a id="goto-dashboard" href="/dash" class="your-dashboard-text">Your Dashboard</a></button></li>
         <?php   } else { ?>
-        <?php $splitName = explode(' ', $current_user->display_name); 
-              $fixedName = $splitName[0] . " " . $splitName[1] . "";
+        <?php
+           $splitName = explode(' ', $current_user->display_name);
+           $splitName = array_slice($splitName, 0, 2);
+           $fixedName = implode(' ', $splitName);
         ?>
         <li><a id="login-here" class="btn outline toolbar-login" href="aboutus.co.nz/wp-login.php" data-toggle="modal" data-target="#loginmodal">Logged in as <?php echo ($fixedName)?$fixedName:$current_user->user_login ?></a></li>
         <li><button id="your-dash"><a id="goto-dashboard" href="/dash" class="your-dashboard-text">Your Dashboard</a></button></li>
