@@ -216,7 +216,7 @@ if(count($business_categories)): foreach($business_categories as $value => $labe
              
                 <label>Address Lookup</label>
     
-                <input type="text" class="text required" name="input_15"/>
+                <input type="text" class="text" name="input_15"/>
               </div>
             </div>
             <div class="form-row form-row-double">
@@ -277,7 +277,7 @@ if(count($business_categories)): foreach($business_categories as $value => $labe
                    <label class="gfield_label" for="input_4_27">Captcha</label>
                    <script type="text/javascript"> var RecaptchaOptions = {theme : 'clean'}; if(parseInt('19') > 0) {RecaptchaOptions.tabindex = 19;}</script>
                    <div class="ginput_container" id="input_4_27">
-                   <script type="text/javascript" src="http://www.google.com/recaptcha/api/challenge?k=6LfY2OkSAAAAACQwgBpg6-rBoaXCFd5TlPLUCLxL&amp;hl=en"></script>
+                   <script type="text/javascript" src="http://www.google.com/recaptcha/api/challenge?k=<?php echo get_option("rg_gforms_captcha_public_key"); ?>&amp;hl=en"></script>
                    <script type="text/javascript" src="http://www.google.com/recaptcha/api/js/recaptcha.js"></script>
                    </div>
                   </li> 
@@ -294,21 +294,21 @@ if(count($business_categories)): foreach($business_categories as $value => $labe
             </div>
             
             <div class="hidden LatLng">
-              <input type="hidden" name="input_18" />
+                <input type="hidden" name="input_18" />
             </div>
             
             <div class="form-actions">
-              <a class="btn clear change-step back" href="javascript:;"  data-step="2">Back</a>
-              <a id="submit-form" class="btn submit-form continue" href="javascript:;">Continue</a>
+                <a class="btn clear change-step back" href="javascript:;"  data-step="2">Back</a>
+                <a id="submit-form" class="btn submit-form continue" href="javascript:;">Continue</a>
             </div>
 
-             <input type='hidden' class='gform_hidden' name='is_submit_4' value='1' />
-          <input type='hidden' class='gform_hidden' name='gform_submit' value='4' />
-          <input type='hidden' class='gform_hidden' name='gform_unique_id' value='' />
-          <input type='hidden' class='gform_hidden' name='state_4' value='' />
-          <input type='hidden' class='gform_hidden' name='gform_target_page_number_4' id='gform_target_page_number_4' value='2' />
-          <input type='hidden' class='gform_hidden' name='gform_source_page_number_4' id='gform_source_page_number_4' value='1' />
-          <input type='hidden' name='gform_field_values' value='' />
+            <input type='hidden' class='gform_hidden' name='is_submit_4' value='1' />
+            <input type='hidden' class='gform_hidden' name='gform_submit' value='4' />
+            <input type='hidden' class='gform_hidden' name='gform_unique_id' value='' />
+            <input type='hidden' class='gform_hidden' name='state_4' value='' />
+            <input type='hidden' class='gform_hidden' name='gform_target_page_number_4' id='gform_target_page_number_4' value='2' />
+            <input type='hidden' class='gform_hidden' name='gform_source_page_number_4' id='gform_source_page_number_4' value='1' />
+            <input type='hidden' name='gform_field_values' value='' />
     
           </div>
       
@@ -359,7 +359,7 @@ $(function(){
 
   var validator = $("#signup-form").validate({
     rules: {
-      input_20: "required", // password
+      input_13: "required", // password
       input_13_2: { // confirm password
         equalTo: "#password"
       },
