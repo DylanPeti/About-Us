@@ -62,7 +62,7 @@ $whos_using_page = '/about-us-profiles/'
    <div class="buttons">
             <a href="/dash" id="edit-page" class="btn">Dashboard</a>
             <a href="<?php echo get_permalink(TheFold\AboutUs\get_biz_from_user()) ?>" id="my-page" class="btn">My Page</a>
-            <a href="/social-settings/" id="edit-page" class="btn">Edit Page</a>
+            <a href="/account/" id="edit-page" class="btn">Edit Page</a>
             <a href="<?php echo wp_logout_url('/'); ?>" id="profile-logout" class="btn">Logout</a>
             <!--   <a href="/login-hauth?s=LinkedIn" class="btn">LOGIN WITH LINKEDIN</a> -->
    </div>

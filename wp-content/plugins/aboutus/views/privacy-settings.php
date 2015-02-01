@@ -35,7 +35,7 @@ get_template_part('header', 'newsroom'); ?>
 				</div>
 				<div id="disconnect-buttons" class="well">
 <?php foreach($providers as $provider): ?>
-					<a data-id="<?php echo $provider->provider_name() ?>" class="btn primary" href="/social-settings?disconnect=<?php echo $provider->provider_name() ?>">Disconnect <?php echo $provider->provider_name() ?></a>
+					<a data-id="<?php echo $provider->provider_name() ?>" class="btn primary" href="/account?disconnect=<?php echo $provider->provider_name() ?>">Disconnect <?php echo $provider->provider_name() ?></a>
 <?php endforeach ?>					
 				</div>
 <?php else: ?>	

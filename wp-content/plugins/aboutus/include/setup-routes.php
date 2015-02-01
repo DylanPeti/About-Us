@@ -396,7 +396,7 @@ WordPress::init_url_access(array(
                     if ( intval($user_id) == $curr_user_id) {
 	                    $activity = $provider->getActivityFeed('me');                    
                     } else {
-	                    //NOT FOR THE LOGGED IN USER
+	                    //NOT FORï¿½THE LOGGED IN USER
 	                    $p2p_id = \p2p_type( 'sms_to_biz' )->get_p2p_id( $sms, $biz );
 						$identifier = \p2p_get_meta( $p2p_id, 'identifier', true );
 						//$profileUrl = \p2p_get_meta($p2p_id, 'profileURL', true);
@@ -748,7 +748,7 @@ WordPress::init_url_access(array(
         ));
     },
 
-    'social-settings' => function() {
+    'account' => function() {
         if( ! is_user_logged_in() ) {
             redirect('signup');
         }
