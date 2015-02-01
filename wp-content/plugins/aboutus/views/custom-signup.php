@@ -271,20 +271,20 @@ if(count($business_categories)): foreach($business_categories as $value => $labe
 
 
             </div>
-             <div class="form-row form-row-double text-center">
+<!--             <div class="form-row form-row-double text-center">-->
 <!--             <div class="left">-->
-                <li style="list-style:none;"id="field_4_27" class="gfield gfield_error">
-                   <label class="gfield_label" for="input_4_27">Captcha</label>
-                   <script type="text/javascript"> var RecaptchaOptions = {theme : 'clean'}; if(parseInt('19') > 0) {RecaptchaOptions.tabindex = 19;}</script>
-                   <div class="ginput_container" id="input_4_27">
-                   <script type="text/javascript" src="http://www.google.com/recaptcha/api/challenge?k=<?php echo get_option("rg_gforms_captcha_public_key"); ?>&amp;hl=en"></script>
-                   <script type="text/javascript" src="http://www.google.com/recaptcha/api/js/recaptcha.js"></script>
-                   </div>
-                  </li> 
+<!--                <li style="list-style:none;"id="field_4_27" class="gfield gfield_error">-->
+<!--                   <label class="gfield_label" for="input_4_27">Captcha</label>-->
+<!--                   <script type="text/javascript"> var RecaptchaOptions = {theme : 'clean'}; if(parseInt('19') > 0) {RecaptchaOptions.tabindex = 19;}</script>-->
+<!--                   <div class="ginput_container" id="input_4_27">-->
+<!--                   <script type="text/javascript" src="http://www.google.com/recaptcha/api/challenge?k=--><?php //echo get_option("rg_gforms_captcha_public_key"); ?><!--&amp;hl=en"></script>-->
+<!--                   <script type="text/javascript" src="http://www.google.com/recaptcha/api/js/recaptcha.js"></script>-->
+<!--                   </div>-->
+<!--                  </li> -->
 <!--            </div>-->
             <!-- CAPTCHA -->
            
-           </div>
+<!--           </div>-->
          
 
             <div class="form-row form-row-double">
