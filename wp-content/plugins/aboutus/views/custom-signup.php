@@ -1,9 +1,12 @@
 <?php get_template_part('header', 'newsroom'); ?>
-
-
-
+<?php
+if(!function_exists('recaptcha_get_html')) {
+    require_once(get_template_directory() . '/recaptchalib.php');
+}
+?>
 
 <div class="section signup-progress">
+
       <div class="container" >
         <h1>Get Started<br />
 <!-- Let’s do it. It’ll only take a minute.</h1> -->
@@ -271,20 +274,16 @@ if(count($business_categories)): foreach($business_categories as $value => $labe
 
 
             </div>
-             <div class="form-row form-row-double text-center">
-<!--             <div class="left">-->
+
+            <div class="form-row form-row-double text-center">
                 <li style="list-style:none;"id="field_4_27" class="gfield gfield_error">
-                   <label class="gfield_label" for="input_4_27">Captcha</label>
-                   <script type="text/javascript"> var RecaptchaOptions = {theme : 'clean'}; if(parseInt('19') > 0) {RecaptchaOptions.tabindex = 19;}</script>
-                   <div class="ginput_container" id="input_4_27">
-                   <script type="text/javascript" src="http://www.google.com/recaptcha/api/challenge?k=6LfY2OkSAAAAACQwgBpg6-rBoaXCFd5TlPLUCLxL&amp;hl=en"></script>
-                   <script type="text/javascript" src="http://www.google.com/recaptcha/api/js/recaptcha.js"></script>
-                   </div>
-                  </li> 
-<!--            </div>-->
-            <!-- CAPTCHA -->
-           
-           </div>
+                <label class="gfield_label" for="input_4_27">Captcha</label>
+                    <script type="text/javascript"> var RecaptchaOptions = {theme : 'clean'}; if(parseInt('19') > 0) {RecaptchaOptions.tabindex = 19;}</script>
+                    <div class="ginput_container" id="input_4_27">
+                        <?php echo recaptcha_get_html( get_option("rg_gforms_captcha_public_key") ); ?>
+                    </div>
+                </li>
+            </div>
          
 
             <div class="form-row form-row-double">
@@ -357,40 +356,53 @@ if(count($business_categories)): foreach($business_categories as $value => $labe
 <script type="text/javascript">
 $(function(){
 
-  var validator = $("#signup-form").validate({
-    rules: {
-      input_20: "required", // password
-      input_13_2: { // confirm password
-        equalTo: "#password"
-      },
-      background: "required",
-      input_20: { // email
-        required: true,
-        email: true,
-        pattern: /^[A-Za-z0-9@.-]+$/,
-        remote:  {
-          url: "/check-email",
-          type: "get",
-          data: {
-            email: function() {
-              return $( "#email" ).val();
-
+    var validator = $("#signup-form").validate({
+        onkeyup: false,
+        onclick: false,
+        onfocusout: false,
+        rules: {
+            input_20: "required", // password
+            input_13_2: { // confirm password
+                equalTo: "#password"
+            },
+            background: "required",
+            input_20: { // email
+                required: true,
+                email: true,
+                pattern: /^[A-Za-z0-9@.-]+$/,
+                remote:  {
+                    url: "/check-email",
+                    type: "get",
+                    data: {
+                        email: function() {
+                            return $( "#email" ).val();
+                        }
+                    }
+                }
             }
-          }
+//          ,recaptcha_response_field: { // recaptcha
+//                required: true,
+//                remote:  {
+//                    url: "/check-recaptcha",
+//                    type: "post",
+//                    data: {
+//                        recaptcha_challenge_field: function() {
+//                            return $( "#recaptcha_challenge_field" ).val();
+//                        },
+//                        recaptcha_response_field: function() {
+//                            return $( "#recaptcha_response_field" ).val();
+//                        }
+//                    }
+//                }
+//            }
+
+        },
+        submitHandler: function(form) {
+            $("#submit-form").attr('disabled', '/upload-image').css({opacity: 0.5}).html('Creating Account...');
+            $(".step-3").find('input').css({opacity: 0.3});
+            form.submit();
         }
-      }
-    },
-    submitHandler: function(form) {
-      $("#submit-form").attr('disabled', '/upload-image').css({opacity: 0.5}).html('Creating Account...');
-      $(".step-3").find('input').css({opacity: 0.3});
-      form.submit();
-
-
-     
-     
-    }
-  });
-
+    });
 
     $(".change-step").on('click', function(e){
         var step = $(this).attr('data-step');
@@ -419,7 +431,9 @@ $(function(){
     $("#background").val($(this).attr('data-id'));
   });
 
-
 });
+
+
+
 </script>
 

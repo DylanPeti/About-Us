@@ -1568,6 +1568,9 @@ background-color: #000;
     text-align: center;
 }
 
+.left.geocomplete .text{
+    height: 40px !important;
+}
 
 .search-section{
     width: 100%;

@@ -396,7 +396,7 @@ WordPress::init_url_access(array(
                     if ( intval($user_id) == $curr_user_id) {
 	                    $activity = $provider->getActivityFeed('me');                    
                     } else {
-	                    //NOT FOR THE LOGGED IN USER
+	                    //NOT FORï¿½THE LOGGED IN USER
 	                    $p2p_id = \p2p_type( 'sms_to_biz' )->get_p2p_id( $sms, $biz );
 						$identifier = \p2p_get_meta( $p2p_id, 'identifier', true );
 						//$profileUrl = \p2p_get_meta($p2p_id, 'profileURL', true);
@@ -482,6 +482,8 @@ WordPress::init_url_access(array(
             redirect('dash');
         }*/
 
+
+
         if (current_user_can( 'manage_options' )) {
             WordPress::render_view('oops-admin.php', array());
             die();
@@ -511,6 +513,21 @@ WordPress::init_url_access(array(
         ));
     },
 
+    'check-recaptcha' => function()
+    {
+        header('Content-type: application/json');
+        require_once(get_template_directory() . '/recaptchalib.php');
+        $private_key = get_option("rg_gforms_captcha_private_key");
+        $response = recaptcha_check_answer (
+            $private_key,
+            $_SERVER["REMOTE_ADDR"],
+            $_POST["recaptcha_challenge_field"],
+            $_POST["recaptcha_response_field"]
+        );
+        echo json_encode($response->is_valid);
+        exit;
+    },
+
     'check-email' => function()
     {
         header('Content-type: application/json');
@@ -518,7 +535,7 @@ WordPress::init_url_access(array(
         if(isset($_GET['email'])) {
             $email = $_GET['email'];
             if( email_exists( $email ) ) {
-                $response = 'An account already exists with that email address. Please log in instead.';
+                $response = false; // 'An account already exists with that email address. Please log in instead.';
             } else {
                 $response = true;
             }
