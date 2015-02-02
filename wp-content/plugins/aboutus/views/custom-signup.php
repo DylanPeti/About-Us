@@ -311,6 +311,13 @@ if(count($business_categories)): foreach($business_categories as $value => $labe
             <input type='hidden' name='gform_field_values' value='' />
     
           </div>
+
+        <div class="form-row form-row-double hidden" >
+            <div class="left">
+                <label>If you're human, leave me blank</label>
+                <input type="text" name="input_27" value="" />
+            </div>
+        </div>
       
          
 <?php /*
@@ -384,10 +391,6 @@ $(function(){
       $("#submit-form").attr('disabled', '/upload-image').css({opacity: 0.5}).html('Creating Account...');
       $(".step-3").find('input').css({opacity: 0.3});
       form.submit();
-
-
-     
-     
     }
   });
 

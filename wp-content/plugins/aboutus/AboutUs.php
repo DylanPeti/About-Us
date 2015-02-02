@@ -91,8 +91,16 @@ if(!$ismobile) {
 
 },10,4);
 
+add_filter('gform_validation_4', function($validation_result){
+    if($_POST['input_27'] != '') {
+        $validation_result['is_valid'] = false;
+    }
+    return $validation_result;
+});
+
+
 add_filter('gform_update_post_options',function($options){
- 
+
  if(isset(get_biz_from_user()->ID)){
     $_REQUEST['biz_id'] = get_biz_from_user()->ID;
 }
