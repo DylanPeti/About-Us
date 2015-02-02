@@ -1,0 +1,12 @@
+adapter: sftp
+host: s203276.gridserver.com
+username: s203276.gridserver.com
+path: /home/203276/users/.home/domains/aboutus.co.nz/html
+
+exclude:
+    - .gitignore
+#    - dandelion.yml
+    - .git/
+
+#additional:
+#    - core/wp-config.php

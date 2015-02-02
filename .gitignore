@@ -2,5 +2,5 @@
 /wp-content/uploads/*
 !/wp-content/uploads/.gitkeep
 *.sql
-/wp-content/debug.log
+*.log
 /core/wp-config.php
